@@ -53,6 +53,12 @@
         background: #ffffff;
         border-radius: 8px;
         overflow: hidden;
+        table-layout: fixed;
+    }
+
+    th:nth-child(1)
+    {
+        width: 52%;
     }
 
     th, td
@@ -61,6 +67,7 @@
         text-align: left;
         border-bottom: 1px solid #e2e8f0;
         vertical-align: top;
+        overflow-wrap: anywhere;
     }
 
     th
@@ -80,6 +87,21 @@
     {
         outline: 3px solid #c8501e;
         outline-offset: 2px;
+    }
+
+    .extra
+    {
+        display: block;
+        margin-top: 4px;
+        font-size: 15px;
+        color: #4a5a6c;
+    }
+
+    hr.unit-sep
+    {
+        border: none;
+        border-top: 3px solid #1b2a4a;
+        margin: 36px 0 8px;
     }
 
     footer
@@ -139,6 +161,45 @@
             <td><a href="Unit2/Ch12/Ch12_Procedures_and_Stack_Notes.pdf">Notes</a></td>
             <td><a href="Unit2/Ch12/Ch12_Procedures_and_Stack_Review_Exercises.pdf">Exercises</a></td>
             <td><a href="Unit2/Ch12/Ch12_Procedures_and_Stack_Review_Solutions.pdf">Solutions</a></td>
+        </tr>
+    </table>
+
+    <hr class="unit-sep">
+
+    <h2>Unit 3: Processor Design and Memory Systems</h2>
+    <table>
+        <tr>
+            <th>Chapter</th>
+            <th>Notes</th>
+            <th>Review Exercises</th>
+            <th>Review Solutions</th>
+        </tr>
+        <tr>
+            <td>Chapter 13: Single-Cycle MIPS Datapath
+                <span class="extra"><a href="Unit3/Ch13/MIPS_Datapath_Diagram_Companion_Guide.pdf">Datapath Diagram Companion Guide</a></span>
+                <span class="extra"><a href="Unit3/Ch13/MIPS_Datapath_Base_Diagram.png">Datapath Base Diagram (image)</a></span>
+            </td>
+            <td><a href="Unit3/Ch13/Ch13_Single_Cycle_MIPS_Datapath_Notes.pdf">Notes</a></td>
+            <td><a href="Unit3/Ch13/Ch13_Single_Cycle_MIPS_Datapath_Review_Exercises.pdf">Exercises</a></td>
+            <td><a href="Unit3/Ch13/Ch13_Single_Cycle_MIPS_Datapath_Review_Solutions.pdf">Solutions</a></td>
+        </tr>
+        <tr>
+            <td>Chapter 14: Single-Cycle MIPS Control Unit</td>
+            <td><a href="Unit3/Ch14/Ch14_Single_Cycle_MIPS_Control_Unit_Notes.pdf">Notes</a></td>
+            <td><a href="Unit3/Ch14/Ch14_Single_Cycle_MIPS_Control_Unit_Review_Exercises.pdf">Exercises</a></td>
+            <td><a href="Unit3/Ch14/Ch14_Single_Cycle_MIPS_Control_Unit_Review_Solutions.pdf">Solutions</a></td>
+        </tr>
+        <tr>
+            <td>Chapter 15: Introduction to MIPS Pipelining and Pipeline Hazards</td>
+            <td><a href="Unit3/Ch15/Ch15_MIPS_Pipelining_and_Pipeline_Hazards_Notes.pdf">Notes</a></td>
+            <td><a href="Unit3/Ch15/Ch15_Intro_MIPS_Pipelining_and_Hazards_Review_Exercises.pdf">Exercises</a></td>
+            <td><a href="Unit3/Ch15/Ch15_Intro_MIPS_Pipelining_and_Hazards_Review_Solutions.pdf">Solutions</a></td>
+        </tr>
+        <tr>
+            <td>Chapter 16: Cache Design and an Introduction to Virtual Memory</td>
+            <td><a href="Unit3/Ch16/Ch16_Cache_Design_Virtual_Memory_Notes.pdf">Notes</a></td>
+            <td><a href="Unit3/Ch16/Ch16_Cache_Design_Virtual_Memory_Review_Exercises.pdf">Exercises</a></td>
+            <td><a href="Unit3/Ch16/Ch16_Cache_Design_Virtual_Memory_Review_Solutions.pdf">Solutions</a></td>
         </tr>
     </table>
 
